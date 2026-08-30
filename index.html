@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terrence — Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div id="bg-layer"></div>
+
+    <!-- NAVIGATION -->
+    <nav id="navbar">
+        <div class="logo">Terrence Khanye</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+  <!-- HERO -->
+<section id="hero">
+    <div class="section-flex">
+        <div>
+            <h1>Terrence Khanye</h1>
+            <p id="typewriter-text"></p>
+        </div>
+        <img src="assets/images/nebula-5.jpg" alt="Rosette Nebula" class="accent-image">
+    </div>
+</section>
+<!-- PHILOSOPHY -->
+<section id="philosophy" class="philosophy-section">
+    <blockquote class="reveal">
+        "If that is our will, who dares to stop us?"~Nephis
+    </blockquote>
+    <img src="assets/images/Helix-nebula.jpg" alt="Helix Nebula" class="philosophy-image reveal">
+</section>
+
+ <!-- ABOUT -->
+<section id="about">
+    <h2>About</h2>
+    <div class="section-flex reveal">
+        <div>
+            <p>A junior systems developer with a passion for creating innovative software solutions.<br>Large things start small, and every line of code is a piece towards something far greater; perhaps even beautiful.<br> Current studies right now include, Html, CSS, JavaScript and working into C#.<br>Personal projects have gone into better understanding and applying these still developing skills.</p>
+        </div>
+        <img src="assets/images/nebula-1.jpg" alt="Nebula" class="accent-image">
+    </div>
+    <div class="corner-card corner-top-right reveal">
+    <img src="assets/images/Skeleton-code1.png" alt="Early skeleton code of Black Hole Math" class="corner-thumb">
+    <p class="corner-caption">The original console version — before the WPF rebuild, just raw calculation logic and text output.</p>
+</div>
+</section>
+
+  <!-- SKILLS -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="section-flex reveal">
+        <img src="assets/images/nebula-2.jpg" alt="Nebula" class="accent-image">
+        <div>
+            <ul class="skills-list">
+                <li>C#</li>
+                <li>WPF</li>
+                <li>HTML/CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+    </div>
+<div class="corner-card corner-bottom-right reveal">
+    <img src="assets/images/Skeleton-code2.png" alt="Black Hole Math development screenshot" class="corner-thumb">
+    <p class="corner-caption">Early WPF layout work — figuring out the XAML structure before the visual polish came in.</p>
+</div>
+</section>
+
+<div class="dual-showcase">
+    <img src="assets/images/Crab-nebula.jpg" alt="Crab Nebula" class="dual-showcase-image reveal">
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <div class="showcase-content">
+            <h2>Projects</h2>
+            <div class="project-card reveal">
+                <h3>Black Hole Math</h3>
+                <p>A WPF desktop app that calculates Schwarzschild radius, surface gravity, photon sphere radius, and more — with a fully animated sci-fi UI.</p>
+                <div class="screenshot-grid">
+                    <img src="assets/images/blackholemath-screenshot.png" alt="The finished WPF app — animated black hole visual with live glow and accretion disk" class="screenshot-thumb">
+                    <img src="assets/images/blackholemath-screenshot2.png" alt="Core calculation logic — Schwarzschild radius, surface gravity, and photon sphere formulas" class="screenshot-thumb">
+                    <img src="assets/images/blackholemath-screenshot3.png" alt="XAML markup for the custom title bar and themed dropdown styling" class="screenshot-thumb">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GOALS -->
+    <section id="goals">
+        <div class="showcase-content">
+            <h2>Currently Learning</h2>
+            <div class="project-card reveal">
+                <ul class="goals-list">
+                    <li><strong>C#</strong> — deepening my understanding of modern C# features and best practices</li>
+                    <li><strong>JavaScript</strong> — applying it beyond static sites, starting to explore frameworks</li>
+                    <li><strong>Html/CSS</strong> — building more creative and responsive layouts, something someone can be proud of.</li>
+                </ul>
+                <p class="goals-note">Next up: contributing to something meaningful.</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+   <!-- CONTACT -->
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="section-flex reveal">
+        <div>
+            <p>Get in touch:</p>
+            <a href="mailto:terrencekhanye@gmail.com">terrencekhanye@gmail.com</a>
+        </div>
+        <img src="assets/images/nebula-3.jpg" alt="Nebula" class="accent-image">
+    </div>
+</section>
+    <!-- LIGHTBOX -->
+<div id="lightbox" class="lightbox">
+    <span class="lightbox-close">&times;</span>
+    <img id="lightbox-img" src="" alt="">
+    <p id="lightbox-caption"></p>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
