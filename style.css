@@ -275,15 +275,9 @@ section {
     font-size: 12px;
     margin-top: 8px;
     line-height: 1.4;
-
-
-
-
 }
 .corner-card:hover {
     transform: scale(1.05) !important;
-
-
 }
 .lightbox {
     display: none;
@@ -302,15 +296,6 @@ section {
 
 .lightbox.open {
     display: flex;
-
-
-
-
-
-
-
-
-
 }
 
 .lightbox img {
@@ -319,53 +304,6 @@ section {
     border-radius: 8px;
     border: 1px solid var(--accent-crimson);
     box-shadow: 0 0 40px rgba(236, 24, 87, 0.3);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 .lightbox-caption {
