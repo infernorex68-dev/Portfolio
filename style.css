@@ -541,3 +541,7 @@ section {
     }
 
 }
+.project-card .capri-banner { display: block; width: 100%; max-width: 686px; height: auto; margin: 12px 0; }
+.project-card + .project-card {
+    margin-top: 32px;
+}
