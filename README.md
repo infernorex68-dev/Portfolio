@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  <em>"If that is our will who dares to stop us?"</em>
+  <em>"If that is our will, who dares to stop us?"~Nephis</em>
 </p>
 
 <p align="center"><img src="assets/readme/divider.svg" alt="" width="100%"></p>
