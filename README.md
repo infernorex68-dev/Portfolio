@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  <em>"Large things start small, and every line of code is a piece towards something far greater; perhaps even beautiful."</em>
+  <em>"If that is our will who dares to stop us?"</em>
 </p>
 
 <p align="center"><img src="assets/readme/divider.svg" alt="" width="100%"></p>
